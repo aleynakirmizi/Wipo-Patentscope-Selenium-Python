@@ -9,3 +9,4 @@ Also navigates to the next page and extracts the data from the next page.Stops w
 
 For database connection you can use this code : https://github.com/aleynakirmizi/Scopus-Connection-with-Selenium/blob/main/db_connection.py
 
+** If you are using the latest version of selenium you dont need to download the driver or specify its path.
