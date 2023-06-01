@@ -15,8 +15,7 @@ class Wipo_Connection():
     def __init__(self):
         self.page_num ='0'
     def connect(self):
-        path = "C:\chromedriver_win32\chromedriver(1).exe"
-        self.driver = webdriver.Chrome(path)
+        self.driver = webdriver.Chrome()
         self.driver.get("https://patentscope.wipo.int/search/en/search.jsf")
         return self.driver
     def search(self,keyword):
